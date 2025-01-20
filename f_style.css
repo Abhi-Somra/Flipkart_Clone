@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header */
+header{
+    margin-top: -10px;
+    background-color: rgba(26, 26, 247, 0.968);
+}
+span{
+    color: white;
+    font-family: 'Poppins';
+    font-size: xx-large;
+    padding: 0px 0px 0px 30px;
+    position: relative;
+    top:25px;
+}
+input{
+    border: 0.1px transparent;
+    border-radius: 5px;
+    width: 33vw;
+    height: 30px;
+    position: relative;
+    top: 40px;
+    left: 80px;
+    background-color: white;
+}
+header nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+header nav ul li{
+    padding: 10px 25px;
+    list-style: none;
+    color: white;
+    font-family: 'poppins';
+}
+.login,.Menu,.cart,.seller{
+    color:white;
+    font-family: 'poppins';
+}
+header nav .login ul li{
+    background-color: black;
+    color: white;
+}
+header nav .login ul li:hover{
+    background-color: white;
+    color: black;
+}
+header nav .Menu ul li:hover{
+    background-color: white;
+    color: black;
+}
+header nav .Menu  ul li{
+    background-color: black;
+    color: white;
+}
+header nav ul :hover{
+    background-color: black;
+    color: white;   
+}
+.login_box,.menu_box{display: none;}
+.login:hover .login_box{
+    display: block;
+    position: absolute;
+} 
+.Menu:hover .menu_box{
+    display: block;
+    position: absolute;
+}
+.login_box ul{
+    display: block;
+} 
+.menu_box ul{
+    display: block;
+}
+/* Container */
+main{
+    background-color: rgb(237, 234, 234);
+}
+.container{
+    min-height: calc(100vh - 91.33px - 18.67px);
+    font-family: 'poppins';
+    font-size: x-large;
+}
+.container img{
+    padding: 10px 10px 10px 10px;
+    width: 98.3%;
+}
+main nav ul{
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-family: 'poppins';
+} 
+main nav ul li{
+    list-style: none;
+    background-color:rgb(237, 234, 234);
+    width: 15%;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+    text-align: center;
+}
+main .ribbon ul{
+    background-color: white;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    justify-content: space-around;
+    font-family: 'poppins';
+    padding: 20px;
+}
+main .ribbon ul li{
+    list-style: none;
+}
+main .ribbon ul li:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+main nav ul li:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+main .mobile_deal img{
+    width: 97.3%;
+    padding: 10px 10px 10px 10px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
